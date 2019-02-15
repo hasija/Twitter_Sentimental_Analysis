@@ -5,10 +5,10 @@ import numpy as np
 import nltk
 nltk.download('vader_lexicon')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-consumer_key = 'wrzb1CjgQs4incKFbSykhqCMk'
-consumer_secret = 'Xa8VvzxwLDmf69k9T85I4DcaZFsooBICVqWFrVEtx5PcxlEgTm'
-access_token = '1355936214-HHLiSlKWPETUsDap6BXf1r1kKIFtN53fx1uRUsN'
-access_token_secret = 'YkKNtQVgCUVD6KNT6uOuTzHjdoA7iDzsXx5MYpQj7YZNj'
+consumer_key = '***'
+consumer_secret = '***'
+access_token = '***'
+access_token_secret = '***'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
